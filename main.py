@@ -39,7 +39,7 @@ group_stopwords = {}
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066): [7590467026],  # Smart Money @oandmlis to Mirror
+    (7855397066): [7590467026,7753411011],  # Smart Money @oandmlis to Mirror and Nova
     (-1002409298826): [4537474080],  #test source to target
 }
 
