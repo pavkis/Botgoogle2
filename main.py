@@ -30,7 +30,7 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (7855397066): [""],  # Smart Money @oandmlis
+    (7855397066): ["3 wallets"],  # Smart Money @oandmlis
     (-1002409298826): ["potato"],  #source test
 }
 
@@ -39,7 +39,7 @@ group_stopwords = {}
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066): [7590467026],  # Smart Money @oandmlis to Mirror
+    (7855397066): [7753411011],  # Smart Money @oandmlis to Nova
     (-1002409298826): [4537474080],  #test source to target
 }
 
