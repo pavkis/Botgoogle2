@@ -36,13 +36,13 @@ group_filters = {
 
 # Stop-words for source groups
 group_stopwords = {
-    (7855397066): ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
-    (-1002409298826): ["13 wallets"],  #source test
+    (7855397066): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
+    (-1002409298826): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets"],  #source test
 }
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066): [7753411011,4615307246],  # Smart Money @oandmlis to Nova
+    (7855397066): [7753411011,4615307246],  # Smart Money @oandmlis to Nova and Feed for getTokenHolders
     (-1002409298826): [4537474080,4615307246],  #test source to target
 }
 
