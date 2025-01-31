@@ -42,8 +42,8 @@ group_stopwords = {
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066): [7753411011,4615307246],  # Smart Money @oandmlis to Nova and Feed for getTokenHolders
-    (-1002409298826): [4537474080,4615307246],  #test source to target
+    (7855397066): [7753411011,7497120111,4615307246,1002439087307],  # Smart Money @oandmlis to Nova,Bloom and Feed for getTokenHolders
+    (-1002409298826): [4537474080,4615307246,1002439087307],  #test source to target
 }
 
 # Initialize the Telegram client
