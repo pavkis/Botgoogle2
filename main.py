@@ -30,20 +30,20 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (7855397066): ["3 wallets"],  # Smart Money @oandmlis
+    (7855397066): ["4 wallets"],  # Smart Money @oandmlis
     (-1002409298826): ["potato","3 wallets"],  #source test
 }
 
 # Stop-words for source groups
 group_stopwords = {
-    (7855397066): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
+    (7855397066): ["14 wallets","24 wallets","34 wallets","44 wallets","54 wallets","64 wallets","74 wallets","84 wallets","94 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
     (-1002409298826): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets"],  #source test
 }
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066): [7753411011,7497120111,4615307246,1002439087307],  # Smart Money @oandmlis to Nova,Bloom and Feed for getTokenHolders
-    (-1002409298826): [4537474080,4615307246,1002439087307],  #test source to target
+    (7855397066): [7753411011,7497120111,5486942816,1002439087307],  # Smart Money @oandmlis to Nova,Bloom,Maestro and Feed for getTokenHolders
+    (-1002409298826): [4537474080,1002439087307],  #test source to target
 }
 
 # Initialize the Telegram client
