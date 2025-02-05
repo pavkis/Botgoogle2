@@ -31,13 +31,13 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 # Keywords for source groups
 group_filters = {
     (7855397066): ["4 wallets"],  # Smart Money @oandmlis
-    (-1002409298826): ["potato","3 wallets"],  #source test
+    (-1002409298826): ["potato","4 wallets"],  #source test
 }
 
 # Stop-words for source groups
 group_stopwords = {
     (7855397066): ["14 wallets","24 wallets","34 wallets","44 wallets","54 wallets","64 wallets","74 wallets","84 wallets","94 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
-    (-1002409298826): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets"],  #source test
+    (-1002409298826): ["14 wallets","24 wallets","34 wallets","43 wallets","53 wallets","63 wallets","73 wallets"],  #source test
 }
 
 # Dynamic target group mapping
