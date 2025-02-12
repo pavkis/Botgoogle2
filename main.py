@@ -41,7 +41,7 @@ group_stopwords = {
     (7855397066,-4543940911): ["13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets","83 wallets","93 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
     (7855397066,-4559220661): ["14 wallets","24 wallets","34 wallets","44 wallets","54 wallets","64 wallets","74 wallets","84 wallets","94 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
     (7855397066,-4542478386): ["15 wallets","25 wallets","35 wallets","45 wallets","55 wallets","65 wallets","75 wallets","85 wallets","95 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
-    (-1002409298826): ["13 wallets"],  #source test
+    (-1002409298826): ["13 wallets","23 wallets","33 wallets","43 wallets"],  #source test
 }
 
 # Dynamic target group mapping
