@@ -46,10 +46,10 @@ group_stopwords = {
 
 # Dynamic target group mapping
 group_config = {
-    (7855397066,-4585305140): [1002280691008], # Smart Money @oandmlis to OZMO feed 1 wallet
+    (7855397066,-4585305140): [1002280691008], # Smart Money @oandmlis to OZMO feed 4 wallets
     (7855397066,-4550386211): [1002385053109], # Smart Money @oandmlis to OZMO feed 2 wallets
     (7855397066,-4543940911): [6006866508,1002439087307],  # Smart Money @oandmlis to Maestro Pro and Feed for getTokenHolders 3 wallets
-    (7855397066,-4559220661): [7753411011],  # Smart Money @oandmlis to Nova 4 wallets
+    (7855397066,-4559220661): [7753411011,1002280691008],  # Smart Money @oandmlis to Nova 4 wallets and OZMO Feed 4 wallets
     (7855397066,-4542478386): [7497120111],  # Smart Money @oandmlis to Bloom 5 wallets
     (-1002409298826): [4537474080,1002439087307,1002385053109,1002280691008],  #test source to target and feed and ozmo
 }
