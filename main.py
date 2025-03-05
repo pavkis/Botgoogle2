@@ -30,12 +30,12 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (7855397066,-4585305140): ["🆕","⭐️"],  # Smart Money, SM Mirror 6
+    (7855397066,-4585305140): ["🆕","⭐️🟢"],  # Smart Money, SM Mirror 6
     (7855397066,-4550386211): ["2 wallets"],  # Smart Money, SM Mirror 2
     (7855397066,-4543940911): ["3 wallets"],  # Smart Money, SM Mirror 3
     (7855397066,-4559220661): ["4 wallets"],  # Smart Money, SM Mirror 4
     (7855397066,-4542478386): ["5 wallets"],  # Smart Money, SM Mirror 5
-    (-1002409298826): ["potato","🆕","3 wallets"],  #source test
+    (-1002409298826): ["potato","🆕","⭐️🟢","3 wallets"],  #source test
 }
 
 # Stop-words for source groups
