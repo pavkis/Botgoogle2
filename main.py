@@ -30,18 +30,18 @@ logging.debug(f"Loaded API_ID: {API_ID}, Source IDs: {source_ids}")
 
 # Keywords for source groups
 group_filters = {
-    (7232767589): ["2 wallets"],  # BSC Profit
+    (7232767589): ["3 wallets"],  # BSC Profit
     (7855397066,-4585305140): ["9 wallets"],  # Smart Money, SM Mirror 6
     (7855397066,-4550386211): ["2 wallets"],  # Smart Money, SM Mirror 2
     (7855397066,-4543940911): ["3 wallets"],  # Smart Money, SM Mirror 3
     (7855397066,-4559220661): ["4 wallets"],  # Smart Money, SM Mirror 4
     (7855397066,-4542478386): ["5 wallets"],  # Smart Money, SM Mirror 5
-    (-1002409298826): ["potato","swapped","2 wallets"],  #source test
+    (-1002409298826): ["potato","swapped","3 wallets"],  #source test
 }
 
 # Stop-words for source groups
 group_stopwords = {
-    (7232767589): ["12 wallets","22 wallets","32 wallets"],  #BSC Profit
+    (7232767589): ["13 wallets","23 wallets","33 wallets"],  #BSC Profit
     (7855397066): ["12 wallets","22 wallets","32 wallets","42 wallets","52 wallets","62 wallets","72 wallets","82 wallets","92 wallets","13 wallets","23 wallets","33 wallets","43 wallets","53 wallets","63 wallets","73 wallets","83 wallets","93 wallets","14 wallets","24 wallets","34 wallets","44 wallets","54 wallets","64 wallets","74 wallets","84 wallets","94 wallets","15 wallets","25 wallets","35 wallets","45 wallets","55 wallets","65 wallets","75 wallets","85 wallets","95 wallets","19 wallets","29 wallets","39 wallets","49 wallets","59 wallets","69 wallets","79 wallets","89 wallets","99 wallets","EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],  #USDC
     (-1002409298826): ["13 wallets","23 wallets","33 wallets","43 wallets"],  #source test
 }
