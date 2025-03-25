@@ -36,7 +36,7 @@ group_filters = {
     (7855397066,-4543940911): ["3 wallets"],  # Smart Money, SM Mirror 3
     (7855397066,-4559220661): ["4 wallets"],  # Smart Money, SM Mirror 4
     (7855397066,-4542478386): ["5 wallets"],  # Smart Money, SM Mirror 5
-    (-1002409298826): ["potato","swapped","3 wallets"],  #source test
+    (-1002409298826): ["potato","swapped","2 wallets"],  #source test
 }
 
 # Stop-words for source groups
@@ -54,7 +54,7 @@ group_config = {
     (7855397066,-4543940911): [6006866508,1002439087307],  # Smart Money @oandmlis to Maestro Pro 3 wallets and Feed for getTokenHolders 3 wallets
     (7855397066,-4559220661): [7753411011],  # Smart Money @oandmlis to Nova 4 wallets
     (7855397066,-4542478386): [7497120111],  # Smart Money @oandmlis to Bloom 5 wallets
-    (-1002409298826): [4537474080,1002439087307,1002385053109,1002280691008],  #test source to target and feed and ozmo
+    (-1002409298826): [4537474080,1002439087307,1002385053109,1002280691008,8176728315],  #test source to target and feed and ozmo
 }
 
 # Initialize the Telegram client
